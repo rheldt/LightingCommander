@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightingCommander", "LightingCommander\LightingCommander.csproj", "{C0D3F8AE-59FF-413A-B341-2E37C28A1E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSlider", "ColorSlider\ColorSlider.csproj", "{16E224DC-7FF0-4908-8318-D6A3AC2E797A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiPanel", "MultiPanel\MultiPanel.csproj", "{1EB31359-E7F5-42ED-8794-49F53E1A9CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0D4D4440-26A6-4CD6-9950-0D3818293C61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D3F8AE-59FF-413A-B341-2E37C28A1E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D3F8AE-59FF-413A-B341-2E37C28A1E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D3F8AE-59FF-413A-B341-2E37C28A1E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D3F8AE-59FF-413A-B341-2E37C28A1E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E224DC-7FF0-4908-8318-D6A3AC2E797A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E224DC-7FF0-4908-8318-D6A3AC2E797A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E224DC-7FF0-4908-8318-D6A3AC2E797A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E224DC-7FF0-4908-8318-D6A3AC2E797A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB31359-E7F5-42ED-8794-49F53E1A9CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB31359-E7F5-42ED-8794-49F53E1A9CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB31359-E7F5-42ED-8794-49F53E1A9CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB31359-E7F5-42ED-8794-49F53E1A9CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16E224DC-7FF0-4908-8318-D6A3AC2E797A} = {0D4D4440-26A6-4CD6-9950-0D3818293C61}
+		{1EB31359-E7F5-42ED-8794-49F53E1A9CF1} = {0D4D4440-26A6-4CD6-9950-0D3818293C61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0EB6B8D-67BD-4A7A-B855-FEAF94F8B12E}
+	EndGlobalSection
+EndGlobal
